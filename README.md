@@ -43,16 +43,20 @@ Assigning an enum to a variable:
 
 ```csharp
 Season seasonSpring = Season.Spring;
-Season seasonWinter = Season.Winter;
 ```
 
 Get the enum as a string:
 
 ```csharp
-string summer = Season.Summer;
-// or
 string autumn = Season.Autumn.ToString();
+Console.WriteLine(autumn);
+// or
+Console.WriteLine(seasonSpring);
+Console.WriteLine(Season.Summer);
+
 ```
+
+> The following will NOT work: `string summer = Season.Summer;`
 
 Get the enum as an integer:
 
@@ -64,7 +68,7 @@ Get an integer as an enum:
 
 ```csharp
 int winterCode = 3;
-Season seasonWinter = (Season)winterCode;
+Season seasonWinter = (Season)winterCode; //or (Season)3
 ```
 
 ## Resources
