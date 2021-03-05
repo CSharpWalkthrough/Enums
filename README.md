@@ -34,7 +34,7 @@ enum SeasonCodes
 {
     Spring = 100,
     Summer = 15,
-    Autumn, // this will be 0
+    Autumn, // this will be 16
     Winter = 200
 }
 ```
