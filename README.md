@@ -1,6 +1,4 @@
-# CsharpWalkthrough
-
-## Enums
+# Enumeration types (Enums)
 
 An enum is a set of constant names that are assigned a numeric value.
 If a number is not assigned, it starts at 0 by default and increments by one.
