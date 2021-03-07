@@ -13,6 +13,7 @@ namespace Enums.ExerciceOne
     public partial class FrmMain : Form
     {
         private const string NOT_FOUND = "Not Found";
+        private const string ARROW = " => ";
         public FrmMain()
         {
             InitializeComponent();
