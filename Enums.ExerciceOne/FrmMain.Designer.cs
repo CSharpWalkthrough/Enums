@@ -47,78 +47,162 @@ namespace Enums.ExerciceOne
             // 
             // nudCode1
             // 
-            this.nudCode1.Location = new System.Drawing.Point(34, 44);
+            this.nudCode1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.nudCode1.Location = new System.Drawing.Point(37, 50);
+            this.nudCode1.Maximum = new decimal(new int[] {
+            4999,
+            0,
+            0,
+            0});
+            this.nudCode1.Minimum = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             this.nudCode1.Name = "nudCode1";
-            this.nudCode1.Size = new System.Drawing.Size(120, 20);
+            this.nudCode1.Size = new System.Drawing.Size(140, 21);
             this.nudCode1.TabIndex = 0;
+            this.nudCode1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCode1.Value = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             // 
             // numCode4
             // 
-            this.numCode4.Location = new System.Drawing.Point(34, 158);
+            this.numCode4.Location = new System.Drawing.Point(37, 181);
+            this.numCode4.Maximum = new decimal(new int[] {
+            4999,
+            0,
+            0,
+            0});
+            this.numCode4.Minimum = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             this.numCode4.Name = "numCode4";
-            this.numCode4.Size = new System.Drawing.Size(120, 20);
+            this.numCode4.Size = new System.Drawing.Size(140, 21);
             this.numCode4.TabIndex = 2;
+            this.numCode4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numCode4.Value = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             // 
             // nudCode3
             // 
-            this.nudCode3.Location = new System.Drawing.Point(34, 119);
+            this.nudCode3.Location = new System.Drawing.Point(37, 136);
+            this.nudCode3.Maximum = new decimal(new int[] {
+            4999,
+            0,
+            0,
+            0});
+            this.nudCode3.Minimum = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             this.nudCode3.Name = "nudCode3";
-            this.nudCode3.Size = new System.Drawing.Size(120, 20);
+            this.nudCode3.Size = new System.Drawing.Size(140, 21);
             this.nudCode3.TabIndex = 3;
+            this.nudCode3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCode3.Value = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             // 
             // nudCode2
             // 
-            this.nudCode2.Location = new System.Drawing.Point(34, 80);
+            this.nudCode2.Location = new System.Drawing.Point(37, 91);
+            this.nudCode2.Maximum = new decimal(new int[] {
+            4999,
+            0,
+            0,
+            0});
+            this.nudCode2.Minimum = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             this.nudCode2.Name = "nudCode2";
-            this.nudCode2.Size = new System.Drawing.Size(120, 20);
+            this.nudCode2.Size = new System.Drawing.Size(140, 21);
             this.nudCode2.TabIndex = 4;
+            this.nudCode2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCode2.Value = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             // 
             // nudCode5
             // 
-            this.nudCode5.Location = new System.Drawing.Point(34, 197);
+            this.nudCode5.Location = new System.Drawing.Point(37, 226);
+            this.nudCode5.Maximum = new decimal(new int[] {
+            4999,
+            0,
+            0,
+            0});
+            this.nudCode5.Minimum = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             this.nudCode5.Name = "nudCode5";
-            this.nudCode5.Size = new System.Drawing.Size(120, 20);
+            this.nudCode5.Size = new System.Drawing.Size(140, 21);
             this.nudCode5.TabIndex = 5;
+            this.nudCode5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCode5.Value = new decimal(new int[] {
+            4000,
+            0,
+            0,
+            0});
             // 
             // btnCodesToFruits
             // 
-            this.btnCodesToFruits.Location = new System.Drawing.Point(33, 252);
+            this.btnCodesToFruits.Location = new System.Drawing.Point(36, 290);
             this.btnCodesToFruits.Name = "btnCodesToFruits";
-            this.btnCodesToFruits.Size = new System.Drawing.Size(120, 30);
+            this.btnCodesToFruits.Size = new System.Drawing.Size(140, 35);
             this.btnCodesToFruits.TabIndex = 6;
-            this.btnCodesToFruits.Text = "button1";
+            this.btnCodesToFruits.Text = "Codes to fruits";
             this.btnCodesToFruits.UseVisualStyleBackColor = true;
+            this.btnCodesToFruits.Click += new System.EventHandler(this.btnCodesToFruits_Click);
             // 
             // lstFruitCodes
             // 
             this.lstFruitCodes.FormattingEnabled = true;
-            this.lstFruitCodes.Location = new System.Drawing.Point(409, 44);
+            this.lstFruitCodes.ItemHeight = 15;
+            this.lstFruitCodes.Location = new System.Drawing.Point(457, 50);
             this.lstFruitCodes.Name = "lstFruitCodes";
-            this.lstFruitCodes.Size = new System.Drawing.Size(190, 238);
+            this.lstFruitCodes.Size = new System.Drawing.Size(221, 274);
             this.lstFruitCodes.TabIndex = 7;
             // 
             // btnFruitsToCodes
             // 
-            this.btnFruitsToCodes.Location = new System.Drawing.Point(179, 252);
+            this.btnFruitsToCodes.Location = new System.Drawing.Point(206, 290);
             this.btnFruitsToCodes.Name = "btnFruitsToCodes";
-            this.btnFruitsToCodes.Size = new System.Drawing.Size(179, 30);
+            this.btnFruitsToCodes.Size = new System.Drawing.Size(209, 35);
             this.btnFruitsToCodes.TabIndex = 8;
-            this.btnFruitsToCodes.Text = "button2";
+            this.btnFruitsToCodes.Text = "Fruits to codes";
             this.btnFruitsToCodes.UseVisualStyleBackColor = true;
+            this.btnFruitsToCodes.Click += new System.EventHandler(this.btnFruitsToCodes_Click);
             // 
             // rtxFruits
             // 
-            this.rtxFruits.Location = new System.Drawing.Point(179, 44);
+            this.rtxFruits.Location = new System.Drawing.Point(206, 50);
             this.rtxFruits.Name = "rtxFruits";
-            this.rtxFruits.Size = new System.Drawing.Size(179, 173);
+            this.rtxFruits.Size = new System.Drawing.Size(208, 199);
             this.rtxFruits.TabIndex = 9;
             this.rtxFruits.Text = "";
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 319);
+            this.ClientSize = new System.Drawing.Size(726, 368);
             this.Controls.Add(this.rtxFruits);
             this.Controls.Add(this.btnFruitsToCodes);
             this.Controls.Add(this.lstFruitCodes);
@@ -128,8 +212,9 @@ namespace Enums.ExerciceOne
             this.Controls.Add(this.nudCode3);
             this.Controls.Add(this.numCode4);
             this.Controls.Add(this.nudCode1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
             this.Name = "FrmMain";
-            this.Text = "Form1";
+            this.Text = "FrmMain";
             ((System.ComponentModel.ISupportInitialize)(this.nudCode1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCode4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCode3)).EndInit();

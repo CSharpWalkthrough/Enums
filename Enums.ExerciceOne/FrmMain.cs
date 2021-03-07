@@ -12,9 +12,20 @@ namespace Enums.ExerciceOne
 {
     public partial class FrmMain : Form
     {
+        private const string NOT_FOUND = "Not Found";
         public FrmMain()
         {
             InitializeComponent();
+        }
+
+        private void btnFruitsToCodes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCodesToFruits_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
